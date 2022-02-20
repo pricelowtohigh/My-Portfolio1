@@ -59,7 +59,7 @@ footer h3 {
   display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	height: 250px;
 }
 a:link    { color: white;  }
 a:visited { color: #d7d4d1;   }
