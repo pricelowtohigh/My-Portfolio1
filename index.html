@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en"> <!--The HTML validator wanted me to declare what language I was using. I looked this up since it was something we have not yet covered.-->
+  <head>    <!--Setting up my standard head: declaring the charset, setting the page width, creating a title, and referencing my style.css file.-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Dane Falberg</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-		<header>
+		<header> <!--Basic header-->
 			<h1> Dane Falberg </h1>
 			<h2>Some Guy</h2>
 		</header>
@@ -15,8 +15,9 @@
 		<main>	  
         <img src="drawing006.jpg" class="center" alt="Self-portrait">     
 			  <article>
-          <section>
-            <br></br>
+<!--The HTML validator throws a warning here because I do not have any headings contained directly in this article. I took the heading out of the first section, out it in the article, and reformatted everything to make it look the same, but then the validator got mad at me because I now had a <section> without a heading. I understand why it is throwing this warning, but I think it may be worth ignoring in this case. That said, would it be better for me to just remove the article container altogether? Or to not worry about the section containers and just have 3 seperate article containers in my main container? Are all three acceptable solutions???-->          
+          <section> <!--First section I am using an unordered list with the bullet points 'inside' my background-->
+            <br>
             <h2>Intro to "Me"</h2>
             <p> I am an aspiring web developer living in New York, New York.</p>
             <p>My Interests include: </p>
@@ -28,43 +29,29 @@
               <li>And more...</li>
             </ul>
           </section>
-          <hr>
-          <section>
+          <hr> <!--Horizontal rule-->
+          <section> <!--Standard paragraph stuff-->
             <h2>About "Me"</h2>
             <p>I grew up in Waterford, MI and lived in that part of the country until I was 23. In 2018, I moved to                 Durango, CO to pursue a short-lived career as a professional mountain biker. Then, in 2021, I moved                  to New York city, where I currently reside.</p>
             <p>With much excitement and anticipation, I started my Thinkful journey in February of 2022. I have                     always been a bit resistant to the idea of pursuing this particular career as both my dad and my                     grandfather are computer programmers and I felt compelled to forge my own path, despite all the signs                 telling me this would be a good idea.</p>
             <p>It feels great to have finally accepted the fact that this was probably my destiny all along. I am                   eagerly looking forward to diving head-first into the world of web development!</p>
           </section>
-          <hr></hr>
+          <hr>
           <section>
-            <h2>Contact "Me"</h2>
+            <h2>Contact "Me"</h2> <!--Using href and anchor tags to link to my GitHub and LinkedIn profiles-->
             <p>Please feel free to reach out with any inquiries regarding hiring or colaboration!</p>
-            <ol class="list-inside left-align">
+            <ol class="list-inside left-align"> <!--Used an ordered list here because it was in the requirements even though I think an unordered list makes more sense in both cases here-->
               <li><a href="https://github.com/pricelowtohigh">GitHub Profile</a></li>
               <li><a href="https://www.linkedin.com/in/dane-falberg-b51bba191/">LinkedIn Profile</a></li>
             </ol>
           </section>
-          <br></br>
+          <br>
         </article>
 		</main>
 
-    <footer>
+    <footer> <!--Basic footer-->
       <h3>Me again</h3>
       <p>It's Dane</p>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</body>
 </html>

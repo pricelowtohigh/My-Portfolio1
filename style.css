@@ -1,9 +1,14 @@
+/*Formatting the box sizing*/
 * {
 	box-sizing: border-box;
 }
+
+/*Setting the background color for the entire page*/
 body {
   background-color: #ECE7E2;
 }
+
+/*Formatting the color, layout, and text styling of the header and footer*/
 header, footer {
 	text-align: center;
   color: white;
@@ -20,9 +25,17 @@ header h2, footer p {
   padding-bottom: 20px;
   font-family: Verdana;
 }
+footer h3 {
+  font-family: Verdana;
+  padding-top: 20px;
+}
+
+/*Formatting the hr breaks between sections in the main*/
 hr {
   margin: 50px;
 }
+
+/*Setting up the main article content. Giving it a background and setting a standard text styling for the whole thing. The margin here refers to the distance between the background and the edge of the screen*/
 article {
   font-family: Verdana;
   color: white;
@@ -31,36 +44,34 @@ article {
   margin: 50px 100px;
   border-radius: 5px;
 }
+
+/*Formatting for the content within my three sections. The margin here is to set the distance between the edge of the text and the edge of the background I created above.*/
 section {
   margin: 0px 150px;
 }
 section h2 {
-  font-size: 40px;
-  
+  font-size: 40px; 
 }
 section p {
   text-align: left;
 }
-footer h3 {
-  font-family: Verdana;
-  padding-top: 20px;
-}
-.image {
-  margin: 50px 250px;
-  height: 400px;
-}
+
+/*Classes to format my lists with the bullet points/numbers inside my container and left aligned because it looks better with lists*/
 .list-inside li {
   list-style-position: inside;
 }
 .left-align {
   text-align: left;
 }
+
+/*Class to center my image*/
 .center {
   display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 250px;
+	height: 500px;
 }
+/*Pseudo-classes for my hyperlinks*/
 a:link    { color: white;  }
 a:visited { color: #d7d4d1;   }
 a:hover   { color: #4ea9d0; }
