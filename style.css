@@ -45,7 +45,10 @@ footer h3 {
   font-family: Verdana;
   padding-top: 20px;
 }
-
+.image {
+  margin: 50px 250px;
+  height: 400px;
+}
 .list-inside li {
   list-style-position: inside;
 }
