@@ -4,29 +4,46 @@
 body {
   background-color: #ECE7E2;
 }
-header {
+header, footer {
 	text-align: center;
   color: white;
   background-color: #063970; 
+  border-radius: 5px;
 }	
 header h1 {
   font-size: 60px;
 	font-family: Verdana;
   padding-top: 40px;
 }
-header h2 {
+header h2, footer p {
   padding-top: 0px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  font-family: Verdana;
 }
-
+hr {
+  margin: 50px;
+}
 article {
+  font-family: Verdana;
+  color: white;
   text-align: center;
+  background-color: #063970;
+  margin: 50px 100px;
+  border-radius: 5px;
 }
 section {
-  margin: 0px 225px;
+  margin: 0px 150px;
+}
+section h2 {
+  font-size: 40px;
+  
 }
 section p {
   text-align: left;
+}
+footer h3 {
+  font-family: Verdana;
+  padding-top: 20px;
 }
 
 .list-inside li {
@@ -41,3 +58,7 @@ section p {
 	margin-right: auto;
 	width: 50%;
 }
+a:link    { color: white;  }
+a:visited { color: #d7d4d1;   }
+a:hover   { color: #4ea9d0; }
+a:active  { color: black;  }
