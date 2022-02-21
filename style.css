@@ -6,6 +6,7 @@
 /*Setting the background color for the entire page*/
 body {
   background-color: #ECE7E2;
+  font-family: Verdana;
 }
 
 /*Formatting the color, layout, and text styling of the header and footer*/
@@ -36,8 +37,7 @@ hr {
 }
 
 /*Setting up the main article content. Giving it a background and setting a standard text styling for the whole thing. The margin here refers to the distance between the background and the edge of the screen*/
-article {
-  font-family: Verdana;
+article { 
   color: white;
   text-align: center;
   background-color: #063970;
